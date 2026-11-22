@@ -1,0 +1,4 @@
+Model,Full Test MAE (µg/m³),Full Test Valid Forecasts (N),Full Test Improvement vs. Persistence (%),Dec-Feb MAE (µg/m³),Dec-Feb Valid Forecasts (N),Dec-Feb Improvement vs. Persistence (%)
+Persistence Baseline,9.23,294,0.0% (Baseline),15.25,64,0.0% (Baseline)
+Ridge Regression,8.91,294,+3.4%,13.91,64,+8.8%
+Random Forest Regressor,9.77,294,-5.9%,14.88,64,+2.4%

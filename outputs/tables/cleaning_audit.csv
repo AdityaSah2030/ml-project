@@ -1,0 +1,8 @@
+Stage / Processing Step,Row Count,Notes
+1. Raw CSV Records Loaded,61364,Raw input rows from station CSV
+2. Unparseable Timestamps Dropped,0,Rows with invalid date formats
+3. Valid Datetime Rows,61364,Successfully parsed to pandas datetime
+4. Exact Duplicate Rows Dropped,15,Identical timestamp & measurement duplicates
+5. Outliers Set to NaN (<0 or >1000 µg/m³),5,Excluded sensor calibration errors
+6. Distinct Hourly Timestamps (Deduplicated),61344,Averaged readings for identical hours
+7. Valid Non-Null Hourly PM2.5 Readings,36999,"24,345 hours missing/NaN"

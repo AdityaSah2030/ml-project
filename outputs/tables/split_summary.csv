@@ -1,0 +1,4 @@
+Split Partition,Origin Range (Day D),Target Range (Day D+1),Row Count (N),Mean Target PM2.5 (µg/m³),Std Target PM2.5 (µg/m³)
+Training Set,2019-08-24 to 2021-12-31,2019-08-25 to 2022-01-01,735,48.24,37.75
+Validation Set,2022-01-01 to 2022-12-31,2022-01-02 to 2023-01-01,287,43.98,43.7
+Held-Out Test Set,2023-01-01 to 2023-12-30,2023-01-02 to 2023-12-31,294,46.17,31.49

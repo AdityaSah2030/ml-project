@@ -1,0 +1,6 @@
+Config ID,n_estimators,max_depth,min_samples_leaf,max_features,Validation MAE (µg/m³)
+RF_1,200,5,2,sqrt,9.493
+RF_2,300,8,2,0.7,8.929
+RF_3,300,8,5,0.7,8.688
+RF_4,400,12,2,0.7,8.998
+RF_5,400,None,5,1.0,8.75
